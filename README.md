@@ -25,3 +25,25 @@ Create a file called `API_KEYS.json` and structure it like so:
   "spotify_id": "your-id",
   "spotify_secret": "your-secret"
 }
+
+---
+
+### `### 🗃️ Database File`
+
+```md
+### 🗃️ Database File
+
+The project uses a local SQLite database.
+
+A **starter database** is included, pre-populated with entries from the following developers:
+- Arc System Works  
+- Capcom  
+- id Software  
+- Namco  
+- Nintendo  
+- PlatinumGames  
+- SEGA  
+- Square Enix  
+- Treyarch  
+
+If downloaded, this file (`starter_db.sqlite`) will be updated with additional extractions. Otherwise, a new file will be created in the root directory during execution.
