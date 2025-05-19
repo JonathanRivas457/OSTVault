@@ -38,7 +38,7 @@ If downloaded, this file (`starter_db.sqlite`) will be updated with additional e
 
 ### 📥 yt-dlp
 
-[yt-dlp](https://github.com/yt-dlp/yt-dlp) is used to download tracks located via the Spotify API. This is necessary because Spotify no longer provides detailed track audio features — instead, we analyze the downloaded tracks locally using Essentia.
+[yt-dlp](https://github.com/yt-dlp/yt-dlp) is used to download audios for tracks located via the Spotify API. This is necessary because Spotify no longer provides detailed track audio features — instead, we analyze the downloaded tracks locally using Essentia.
 
 To install run:
 pip install yt-dlp
