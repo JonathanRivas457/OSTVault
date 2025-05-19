@@ -45,6 +45,10 @@ pip install yt-dlp
 
 or refer to [https://github.com/yt-dlp/yt-dlp/wiki/Installation]
 
+### Cookies
+
+You will need to provide yt-dlp with YouTube cookies via a cookies file. Cookies can be obtained via edge, chrome, or firefox estension. Just replace the placeholder cookie file with your own, keeping the name the same
+
 ### 🎧 Essentia Models
 
 This project uses pre-trained models from [Essentia](https://essentia.upf.edu/) to extract various musical features, including timbre, rhythm, pitch, and more.
