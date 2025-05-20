@@ -3,11 +3,13 @@
 
 This project extracts and compiles video game music metadata into a local SQLite database, combining developer, game, album, artist, and song information. It emphasizes rich audio features and popularity data for each song.
 
+If you just want the current database, download the (`games.db`) as it can run independently. I recommend SQLiteBrowser for opening the database, refer to this: https://sqlitebrowser.org/
+
 Tools used:
 - [RAWG API](https://rawg.io/apidocs) for game metadata  
 - [Spotify API](https://developer.spotify.com/) for album and track discovery  
 - [yt-dlp](https://github.com/yt-dlp/yt-dlp) for downloading audio  
-- [Essentia](https://essentia.upf.edu/) for local audio feature extraction  
+- [Essentia](https://essentia.upf.edu/) for local audio feature extraction
 
 > **Note:** This project was developed and tested on Ubuntu/Linux systems.
 ## ⚙️ Setup
